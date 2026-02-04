@@ -45,6 +45,7 @@ StudentResultSystem
 └─ mysql-connector-j.jar
 
 
+
 ---
 
 ## 🛢 Database Setup
@@ -54,13 +55,13 @@ StudentResultSystem
 CREATE DATABASE student_result_db;
 USE student_result_db;
 
-2️⃣ Create Table
 CREATE TABLE students (
     id INT AUTO_INCREMENT PRIMARY KEY,
     roll_no VARCHAR(20) UNIQUE,
     name VARCHAR(100),
     marks INT
 );
+
 
 
 👤 Author
